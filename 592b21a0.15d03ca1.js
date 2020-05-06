@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{147:function(a){a.exports=JSON.parse('{"allTagsPath":"/vault-app-dev-training/blog/tags","slug":"hola","name":"hola","count":1,"permalink":"/vault-app-dev-training/blog/tags/hola"}')}}]);

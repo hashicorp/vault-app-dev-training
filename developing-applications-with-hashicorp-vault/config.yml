@@ -1,7 +1,0 @@
-version: "2"
-virtualmachines:
-- name: myvm
-  image: debian-cloud/debian-8
-  shell: /bin/bash
-  machine_type: g1-small
-  preemptible: true
