@@ -64,7 +64,7 @@ function Home() {
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1>
-            <img src="static/img/Vault_Icon_MonochromeTonal.png" height="300" width="300"/>
+            <img src="img/Vault_Icon_MonochromeTonal.png" height="300" width="300"/>
           </h1>
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
