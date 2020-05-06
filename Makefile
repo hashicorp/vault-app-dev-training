@@ -1,3 +1,4 @@
+# Build the Packer image for Instruqt
 packer_build:
 	cd packer && packer build packer.json
 
