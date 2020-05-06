@@ -13,6 +13,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+      - run: cd docs && yarn install
       - run: cd docs && yarn build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
