@@ -1,2 +1,3 @@
-# vault-ticketmaster-training
-Instruqt Repository for Ticketmaster Vault Training
+# Vault for Application Developers
+
+Repository containing resources for the Vault for Application Developers training.
