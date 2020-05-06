@@ -8,23 +8,17 @@ module.exports = {
   projectName: 'vault-app-dev-training', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Vault for Application Developers',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Vault Logo',
+        src: 'https://storage.googleapis.com/instruqt-frontend/assets/hashicorp/tracks/vault.png',
       },
       links: [
         {
-          to: 'docs/doc1',
+          to: 'docs/module_1',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
-        },
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
         },
       ],
     },
