@@ -14,5 +14,12 @@ shipyard run --no-browser github.com/hashicorp/vault-app-dev-training//stack
 shipyard destroy
 
 # Install the Vault CLI
+cd /tmp
+wget https://releases.hashicorp.com/vault/1.4.1/vault_1.4.1_linux_amd64.zip
+unzip vault_1.4.1_linux_amd64.zip
+mv vault /usr/local/bin
+rm vault_1.4.1_linux_amd64.zip
+
+# Report free disk space
 
 df -h

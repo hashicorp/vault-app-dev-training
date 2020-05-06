@@ -18,11 +18,6 @@
     ],
     "provisioners": [
       {
-        "type": "file",
-        "source": "stack",
-        "destination": "/tmp/stack"
-      },
-      {
         "type": "shell",
         "script": "bootstrap.sh",
         "environment_vars": [
